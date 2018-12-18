@@ -302,3 +302,20 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+.about-img  {
+  height: 450px !important;
+  width: 450px !important;
+  position: relative;
+  bottom: -75px;
+}
+
+#gibson {
+  border: 3px solid #1A5196;
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+  margin: 50px;
+  position: relative;
+  /* top: -100px; */
+}
