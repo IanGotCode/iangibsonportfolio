@@ -341,3 +341,33 @@ footer {
 .resume:hover {
   background-color: #4F837F !important;
 }
+
+
+
+.white {
+  
+  height: 200px;
+  width: 1100px;
+  margin-left: 20px;
+  
+  font-size: 5vw;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: justify;
+  }
+
+  #devicons {
+    font-size: 5vw;
+    margin-top: 50px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0 2px 0;
+  }
+  .devcon:hover {
+    transform: scale(1.1);
+  }
+  
+  
+
+
