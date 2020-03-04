@@ -86,6 +86,7 @@
   }
 }
 
+
 .intro {
   position: relative;
   bottom: 4.86rem;
@@ -354,7 +355,6 @@ footer {
   height: 200px;
   width: 1100px;
   margin-left: 20px;
-  
   font-size: 5vw;
   border-radius: 10px;
   display: inline-block;
@@ -395,6 +395,8 @@ footer {
     }
   }
   
+  
+
   .devcon:hover {
     transform: scale(1.1);
   }
