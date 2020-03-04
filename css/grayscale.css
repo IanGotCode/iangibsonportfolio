@@ -362,6 +362,7 @@ footer {
   }
 
   #devicons {
+    position: relative;
     font-size: 5vw;
     margin-top: 50px;
     margin-right: 45px;
@@ -369,6 +370,31 @@ footer {
     justify-content: space-around;
     padding: 5px 0 2px 0;
   }
+
+  @media only screen and (max-width: 1200px) {
+    #devicons {
+      position: relative;
+      left: 10rem;
+      width: 50%
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    #devicons {
+      position: relative;
+      left: 3.5rem;
+      width: 50%
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    #devicons {
+      position: relative;
+      left: -1rem;
+      width: 40%
+    }
+  }
+  
   .devcon:hover {
     transform: scale(1.1);
   }
