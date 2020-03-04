@@ -86,6 +86,11 @@
   }
 }
 
+.intro {
+  position: relative;
+  bottom: 4.86rem;
+}
+
 .masthead {
   position: relative;
   width: 100%;
